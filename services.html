@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Norwal Cleaners</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/hanger.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="navbar">
+
+    <div class="masthead">
+      <div class="logo">
+        <a href="index.html"><img id="main-logo" src="images/logo.png" /></a>
+      </div>
+      <div class="contact-info">
+        <div class="phone-number">
+          (781) 762-9898
+        </div>
+        1405 Boston Providence Tpke <br />
+        Norwood, MA 02062
+      </div>
+      <div>
+
+      </div>
+      <div class="hours">
+        <div>
+
+          <div>
+            Monday - Friday
+          </div>
+          <div>
+            7am - 7pm
+          </div>
+          <div style="padding-top:16px;">
+            Saturday
+          </div>
+          <div>
+            8am - 5pm
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav">
+      <nav class="navbar">
+        <div class="container">
+          <div class="row">
+            <div class="twelve columns">
+              <ul class="navbar-list">
+                <li class="navbar-item"><a class="navbar-link" href="#About">About</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="services.html">Services</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#Testimonials">Testimonials</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#Specials">Specials</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div id="Services" class="twelve columns" style="margin-top: 3%">
+        <h4>Services</h4>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container">
+      <!-- <div class="row"> -->
+
+      <p>Website Design + Developed by <a href="#">Mindustries</a></p>
+      <!-- </div> -->
+    </div>
+  </footer>
+
+
+  <script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+
+<!-- End Document
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

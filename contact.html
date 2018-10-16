@@ -73,7 +73,7 @@
         <div class="row">
           <div class="twelve columns">
             <ul class="navbar-list">
-              <li class="navbar-item"><a class="navbar-link" href="about.html">About</a></li>
+              <li class="navbar-item"><a class="navbar-link" href="#About">About</a></li>
               <li class="navbar-item"><a class="navbar-link" href="services.html">Services</a></li>
               <li class="navbar-item"><a class="navbar-link" href="#Testimonials">Testimonials</a></li>
               <li class="navbar-item"><a class="navbar-link" href="#Specials">Specials</a></li>
@@ -86,21 +86,28 @@
   </div>
 </div>
 
+
   <div class="container">
     <div class="row">
-      <div class="main-image">
-        <img id="masthead-image" src="images/suit.jpg" />
-      </div>
-      <div>
-        <h3 style="
-        padding: 10px;
-        font-style: italic;">Professional, eco-friendly dry cleaning for all your clothing, bedding, specialty garments and more</h3>
-      </div>
-      <div id="About" class="twelve columns" style="margin-top: 10%">
-        <h4>About</h4>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
+      <div id="Contact" class="twelve columns" style="margin-top: 3%">
+        <h4>Contact Us</h4>
+        <form id="contactform" action="contact.php" method="POST">
+                  <div>
+                    <input type="text" class="form-control" placeholder="Name" name="name" required id="name">
+                  </div>
+                  <div>
+                    <input type="email" class="form-control" placeholder="Email" name="email" required id="email">
+                  </div>
+                  <div>
+                    <input type="text" class="form-control" placeholder="Phone" required name="phone" id="phone">
+                  </div>
+                    <textarea class="form-control" name="message" id="message" rows="4" placeholder="Enter Your Message" required></textarea>
+
+                  <div class="text-center">
+                  <button type="submit" value="submit" class="btn btn-default">SUBMIT</button>
+                  </div>
+                </form>
+
       </div>
     </div>
   </div>
