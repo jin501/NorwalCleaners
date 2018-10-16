@@ -162,3 +162,7 @@ padding: 10px;
  .popover-item:first-child .popover-link:hover:after {
    border-bottom-color: #33C3F0; }
 }
+
+footer {
+  margin-top: 100px;
+}
